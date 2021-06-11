@@ -1,0 +1,136 @@
+/*Framework*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@900&display=swap');
+@font-face {
+    font-family: 'prodSans';
+    src: url('product_sans_regular-webfont.woff2') format('woff2'),
+         url('product_sans_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #e84a3f;
+    line-height: 23px;
+    margin: 0;
+}
+img {
+    width: 70%;
+    object-fit: cover;
+    background:white;
+}
+h1 {
+    font-size: 70px;
+    color:#e84a3f;
+    margin-bottom: 30px;
+    font-family: 'prodSans', sans-serif;
+}
+h2 {
+    font-size: 50px;
+    font-family: 'prodSans', sans-serif;
+}
+p {
+    font-size: 20px;
+    color:#e84a3f;
+    font-family: 'prodSans', sans-serif;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e84a3f;
+    width: 100%;
+    padding: 0px, 0px, 0px, 0px;
+}
+#footer {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    width: 75%;
+    word-wrap: break-word;
+    color: white;
+    text-align: center;
+}
+#spacer {
+    height: 20px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#break {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #e84a3f;
+    width: 70%;
+    height: 2px;
+}
+
+/*Index Splash*/
+#bg-image {
+    margin-top: 0%;
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    background: #e84a3f;
+}
+#splash-container {
+    height: 100%;
+}
+.splash {
+    text-align: center;
+    color: white;
+}
+
+/*Index Content*/
+#content {
+    background-color: white;
+    color:#e84a3f;
+}
+.sideParagraph {
+    max-width: 60%;
+    word-wrap: break-word;
+    margin-right: auto;
+    margin-left: auto;
+}
+.sideParagraph1 {
+    width: 100%;
+    overflow: auto;
+    text-align: center;
+}
+.sideImage1 {
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    width: 50%;
+    overflow: auto;
+    object-fit: cover;
+}
+.topHeader {
+    margin-top: 30px;
+    line-height: 50px;
+}
+.sideParagraph a {
+    color:#e84a3f;
+    text-decoration: none;
+}
+
+/*Footer*/
+.footer_links {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    text-align: center;
+}
+.footer_clckables {
+    display: inline-block;
+    width: 10%;
+}
+.footer_clckables a {
+    color:#e84a3f;
+    text-decoration: none;
+}
+
+@media (max-width: 500px) {
+    .footer_clckables {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
